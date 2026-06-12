@@ -29,7 +29,7 @@ vector<int> pairSum(vector<int> nums,int target)
 }
 
 int main()
-{
+{  
     int n;
     cout << "Enter the size of the array : " << endl;
     cin >> n;
