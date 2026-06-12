@@ -1,7 +1,7 @@
 #include<iostream>
 using namespace std;
 
-void fibonacci(int n)
+int fibonacci(int n)
 {
     if(n<=1)
     {
@@ -11,7 +11,7 @@ void fibonacci(int n)
     int last = fibonacci(n-1);
     int secLast = fibonacci(n-2);
 
-    returbn last + secLast;
+    return last+secLast;
 }
 
 int main()
