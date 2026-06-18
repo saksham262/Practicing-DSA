@@ -54,7 +54,7 @@ void ms(int arr[], int low, int high)
     merge(arr, low, mid, high);
 }
 
-void mergeSort(int arr[], int n)
+void mergeSort(int arr[],int n)
 {
     ms(arr, 0, n - 1);
 }
