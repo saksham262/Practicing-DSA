@@ -6,7 +6,7 @@ using namespace std;
 int duplicateArray(int n, int arr[])
 {
     int i = 0 ;
-    for(int j = 0 ; j < n ; j++)
+    for(int j = 1 ; j < n ; j++)
     {
         if(arr[j]!=arr[i])
         {
