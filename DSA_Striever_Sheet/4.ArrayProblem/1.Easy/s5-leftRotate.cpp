@@ -11,7 +11,6 @@ int leftRotate(int arr[],int n)
     }
     
     arr[n - 1] = temp;
-
 }
 
 int main()
@@ -25,6 +24,7 @@ int main()
     {
         cin >> arr[i];
     }
+    
     leftRotate(arr,n) ;
 
     for(int num : arr)
